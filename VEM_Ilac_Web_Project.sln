@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{7AF3A759-386F-49C3-8F61-C8F24E84ECF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{7C1BBCC2-8608-459D-9BE6-322D1EA70D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VEMIlacWeb", "VEMIlacWeb\VEMIlacWeb.csproj", "{08C5D5B1-283B-4CC7-88AB-22F970C720CA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF3A759-386F-49C3-8F61-C8F24E84ECF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF3A759-386F-49C3-8F61-C8F24E84ECF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF3A759-386F-49C3-8F61-C8F24E84ECF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF3A759-386F-49C3-8F61-C8F24E84ECF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1BBCC2-8608-459D-9BE6-322D1EA70D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1BBCC2-8608-459D-9BE6-322D1EA70D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1BBCC2-8608-459D-9BE6-322D1EA70D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1BBCC2-8608-459D-9BE6-322D1EA70D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C5D5B1-283B-4CC7-88AB-22F970C720CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C5D5B1-283B-4CC7-88AB-22F970C720CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C5D5B1-283B-4CC7-88AB-22F970C720CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C5D5B1-283B-4CC7-88AB-22F970C720CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
